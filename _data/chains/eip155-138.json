@@ -1,0 +1,32 @@
+{
+  "name": "DeFi Oracle Meta Mainnet",
+  "chain": "DFIBC",
+  "icon": "dfibc",
+  "rpc": [
+    "https://rpc.mainnet.defi-oracle.io",
+    "wss://rpc.mainnet.defi-oracle.io",
+    "https://api.defi-oracle.io",
+    "https://cdn.defi-oracle.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "w3setfree.defi-oracle.io",
+  "shortName": "dfio",
+  "chainId": 138,
+  "networkId": 1,
+  "slip44": 60,
+  "ens": {
+    "registry": "defi-oracle.eth"
+  },
+  "explorers": [
+    {
+      "name": "defiscan",
+      "url": "https://blockscan.defi-oracle.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
